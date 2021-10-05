@@ -17,7 +17,9 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 .new::before {
-    content: 'New';
+    content: 'New:';
+    color: red;
+    font-size: 1rem;
 }
 
 section {
